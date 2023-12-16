@@ -1,0 +1,110 @@
+button:hover{
+    cursor: pointer
+}
+
+button[name="navButton"]{
+    color: lightgray;
+    background-color: darkorchid;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3.75px;
+    font-size: 20px;
+}
+
+button[name="navButton"]:hover{
+    color: white;
+    font-weight: bold;
+    background-color: purple;
+}
+
+#all-conversion-sections{
+    display: grid;
+    justify-content: center;
+}
+
+figure{
+    float: left;
+    justify-self: auto; 
+    width: 200px;
+}
+
+img{
+    width: 200px;
+}
+
+figcaption{
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
+button[name="convert"]{
+    font-size: 20px;
+    border-radius: 40px;
+    background-color: lightgreen;
+    padding: 0 15px 0 15px;
+}
+
+button[name="convert"]:hover{
+    font-size: 20px;
+    border-radius: 40px;
+    background-color: lightgreen;
+    border: transparent;
+    width: fit-content;
+    padding: 0 15px 0 15px;
+}
+
+b{
+    border-top: solid;
+    border-top-width: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.temperature{
+    border-top: green;
+}
+
+.weight{
+    border-top: coral;
+}
+
+.distance{
+    border-top: cyan;
+}
+
+legend{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+a[name="home"]{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: cyan;
+    display: flex;
+    left: 0;
+    bottom: 40px;
+    position: fixed;
+    justify-content: center;
+}
+
+img[name="homeImg"]{
+    width: 30px
+}
+
+footer{
+    background-color: lightpink;
+    margin-top: 20px;
+}
+
+.topdiv {
+    float: right;
+    padding-right: 1cm;
+  }
